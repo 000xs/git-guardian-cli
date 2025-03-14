@@ -1,7 +1,7 @@
 # git_guardian/reporter.py
 import json
 import click
-from typing import Dict   
+from typing import Dict   #import dic
 
 
 class Reporter:
