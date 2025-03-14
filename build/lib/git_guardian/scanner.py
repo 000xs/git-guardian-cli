@@ -18,7 +18,7 @@ SECRET_PATTERNS = {
     "Generic Credentials": r"(?i)(?:password|passwd|pwd)[^\n]*[:=]\s*['\"]?[^\s'\"]{8,}",
 }
 
-
+#class GitGuardianScanner
 class GitGuardianScanner:
     def __init__(self, config_path=".gitguardianrc"):
         self.ignored_dirs = [".git", "node_modules", "venv"]
